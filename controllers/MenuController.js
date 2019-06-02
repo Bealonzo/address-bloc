@@ -180,6 +180,9 @@ exit(){
   process.exit();
 }
 
+<<<<<<< HEAD
+>>>>>>> parent of 1abd06e... Complete: checkpoint
+=======
 >>>>>>> parent of 1abd06e... Complete: checkpoint
 
   remindMe() {
