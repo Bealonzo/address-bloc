@@ -101,6 +101,7 @@ module.exports = class MenuController {
       this.main();
     });
   }
+<<<<<<< HEAD
 
   search(){
     inquirer.prompt(this.book.searchQuestions)
@@ -168,6 +169,18 @@ module.exports = class MenuController {
   getContactCount(){
     return this.contacts.length;
   }
+=======
+addContact(){
+  this.clear();
+  console.log('addContact called');
+  this.main();
+}
+exit(){
+  console.log("thank for using AddressBloc!");
+  process.exit();
+}
+
+>>>>>>> parent of 1abd06e... Complete: checkpoint
 
   remindMe() {
     return "Learning is a life-long pursuit!"
