@@ -10,6 +10,7 @@ module.exports = class MenuController {
         message: "Please choose from an option below: ",
         choices: [
           "Add new contact",
+          "view all contacts"
           "Exit",
         ]
       }
@@ -25,6 +26,10 @@ inquirer.prompt(this.mainMenuQuestions).then((response) => {
     case "Add new contact":
       this.addContact();
       break;
+      case "View all contacts":
+        this.getContacts();
+        break
+
     case "Exit":
       this.exit();
 
